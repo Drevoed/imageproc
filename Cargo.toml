@@ -17,7 +17,7 @@ display-window = ["sdl2"]
 
 [dependencies]
 conv = "0.3.3"
-image = { version = "0.23.0", default-features = false }
+image = { git = "https://github.com/Drevoed/image", branch = "export-from-color", default-features = false }
 itertools = "0.8.2"
 num = "0.2.1"
 rand = "0.7.3"
@@ -30,7 +30,7 @@ rulinalg = "0.4.2"
 
 [dev-dependencies]
 assert_approx_eq = "1.1.0"
-image = "0.23.0"
+image = { git = "https://github.com/Drevoed/image", branch = "export-from-color" }
 quickcheck = "0.9.2"
 wasm-bindgen-test = "0.3.8"
 
